@@ -1,5 +1,6 @@
 {
   "name": "frontend",
+  "proxy":"https://e-backend-jmht.onrender.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -31,7 +32,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm install --legacy-peer-deps frontend && npm run build --legacy-peer-deps frontend",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
